@@ -1,0 +1,6 @@
+[% META title = 'Hello, World!' %]
+<p>
+<!-- loaded via URL site/test, from site/site.pm test method -->
+        This is a TT view template, located in the 'root/' directory.
+        <p>Hello, [% username %]!</p>
+</p>

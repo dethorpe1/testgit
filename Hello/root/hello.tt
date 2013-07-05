@@ -1,0 +1,4 @@
+[% META title = 'Hello, World!' %]
+<p>
+        This is a TT view template, located in the 'root/' directory.
+</p>
