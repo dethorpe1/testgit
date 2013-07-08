@@ -1,0 +1,14 @@
+<bpas>
+<webdir>/home/craign/WebSites/bpas</webdir>
+<database>
+	<driver>DBI:mysql:database</driver>
+	<schema>membership</schema>
+	<server>localhost</server>
+	<port>3306</port>
+	<user>craign</user>
+	<password>Festival20</password>
+</database>
+<compatibility>
+	<filedelim>/</filedelim>
+</compatibility>
+</bpas>

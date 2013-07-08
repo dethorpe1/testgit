@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://www.britishplate.org.uk/">
+<title>British Plate Armour Society page changes</title>
+<link>http://www.britishplate.org.uk/</link>
+<description>RSS feed of updated pages on the British Plate Armour Web site</description>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://www.britishplate.org.uk/AttendList.htm" />
+  <rdf:li rdf:resource="http://www.britishplate.org.uk/ShowList.htm" />
+  <rdf:li rdf:resource="http://www.britishplate.org.uk/ShowsSummaryList.html" />
+  <rdf:li rdf:resource="http://www.britishplate.org.uk/Guestbook.html" />
+  <rdf:li rdf:resource="http://www.britishplate.org.uk/links.htm" />
+  <rdf:li rdf:resource="http://www.britishplate.org.uk/quotes.htm" />
+  <rdf:li rdf:resource="http://www.britishplate.org.uk/past_years_shows.htm" />
+  <rdf:li rdf:resource="http://www.britishplate.org.uk/Shows2006.htm" />
+  <rdf:li rdf:resource="http://www.britishplate.org.uk/Shows2005.htm" />
+  <rdf:li rdf:resource="http://www.britishplate.org.uk/steven_de_botune/steven_de_botune.html" />
+  <rdf:li rdf:resource="http://www.britishplate.org.uk/livery.htm" />
+  <rdf:li rdf:resource="http://www.britishplate.org.uk/photo_pages/kev.html" />
+ </rdf:Seq>
+</items>
+</channel>
+
+<item rdf:about="http://www.britishplate.org.uk/AttendList.htm">
+<title>BPAS shows Attendance list 2006</title>
+<link>http://www.britishplate.org.uk/AttendList.htm</link>
+<dc:date>2007-02-11T19:07Z</dc:date>
+</item>
+
+<item rdf:about="http://www.britishplate.org.uk/ShowList.htm">
+<title>BPAS shows list 2006</title>
+<link>http://www.britishplate.org.uk/ShowList.htm</link>
+<dc:date>2007-02-11T19:07Z</dc:date>
+</item>
+
+<item rdf:about="http://www.britishplate.org.uk/ShowsSummaryList.html">
+<title>Shows Summary List</title>
+<link>http://www.britishplate.org.uk/ShowsSummaryList.html</link>
+<description>Shows Summary List</description>
+<dc:date>2007-02-11T19:07Z</dc:date>
+</item>
+
+<item rdf:about="http://www.britishplate.org.uk/Guestbook.html">
+<title>Guestbook</title>
+<link>http://www.britishplate.org.uk/Guestbook.html</link>
+<dc:date>2007-01-22T19:41Z</dc:date>
+</item>
+
+<item rdf:about="http://www.britishplate.org.uk/links.htm">
+<title>Links</title>
+<link>http://www.britishplate.org.uk/links.htm</link>
+<dc:date>2007-01-18T20:09Z</dc:date>
+</item>
+
+<item rdf:about="http://www.britishplate.org.uk/quotes.htm">
+<title>Previous quotes of the week</title>
+<link>http://www.britishplate.org.uk/quotes.htm</link>
+<dc:date>2006-12-28T16:32Z</dc:date>
+</item>
+
+<item rdf:about="http://www.britishplate.org.uk/past_years_shows.htm">
+<title>Old Show Lists</title>
+<link>http://www.britishplate.org.uk/past_years_shows.htm</link>
+<dc:date>2006-12-28T16:14Z</dc:date>
+</item>
+
+<item rdf:about="http://www.britishplate.org.uk/Shows2006.htm">
+<title>BPAS shows list 2006</title>
+<link>http://www.britishplate.org.uk/Shows2006.htm</link>
+<dc:date>2006-12-28T16:14Z</dc:date>
+</item>
+
+<item rdf:about="http://www.britishplate.org.uk/Shows2005.htm">
+<title>BPAS shows list 2005</title>
+<link>http://www.britishplate.org.uk/Shows2005.htm</link>
+<dc:date>2006-12-28T16:14Z</dc:date>
+</item>
+
+<item rdf:about="http://www.britishplate.org.uk/steven_de_botune/steven_de_botune.html">
+<title>Sir Steven De Botune</title>
+<link>http://www.britishplate.org.uk/steven_de_botune/steven_de_botune.html</link>
+<dc:date>2006-12-22T17:55Z</dc:date>
+</item>
+
+<item rdf:about="http://www.britishplate.org.uk/livery.htm">
+<title>Society Livery</title>
+<link>http://www.britishplate.org.uk/livery.htm</link>
+<dc:date>2006-12-22T17:54Z</dc:date>
+</item>
+
+<item rdf:about="http://www.britishplate.org.uk/photo_pages/kev.html">
+<title>Sir Fauconberg</title>
+<link>http://www.britishplate.org.uk/photo_pages/kev.html</link>
+<dc:date>2006-10-04T19:00Z</dc:date>
+</item>
+
+</rdf:RDF>
