@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<sync id="general">
+	<entry source="/home/craign/Documents" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/craign/WebSites" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/craign/eclipse" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/craign/BPAS" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/craign/DethorpeLimited" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/craign/.mozilla-thunderbird" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/craign/scripts" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/craign/keeper" target="craign@dtserver01::craign_datastore" allowdelete="false"></entry>
+	<entry source="/home/craign/.keeper_encfs" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/craign/.gnucash" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/craign/Public" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/shared" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+</sync>
+<sync id="media">
+	<entry source="/home/craign/Music" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/craign/Videos" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/craign/Pictures" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/craign/eBooks" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+	<entry source="/home/craign/calibre_ebook_lib" target="craign@dtserver01::craign_datastore" allowdelete="true"></entry>
+</sync>
+</root>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<sync id="home-to-NAS1">
+	<entry source="/home/craign/BPAS" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
+	<entry source="/home/craign/Desktop" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
+	<entry source="/home/craign/Documents" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
+	<entry source="/home/craign/eclipse" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
+	<entry source="/home/craign/HMRC" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
+	<entry source="/home/craign/BPAS" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
+	<entry source="/home/craign/Dropbox" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
+	<entry source="/home/craign/Public" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
+	<entry source="/home/craign/scripts" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
+	<entry source="/home/craign/WebSites" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
+	<entry source="/home/craign/git" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
+	<entry source="/home/craign/.thunderbird" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
+	<entry source="/home/craign/.config" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
+
+	<entry source="/home/claire/Desktop" target="nas1::backup/dtrock01/home/claire" allowdelete="true"></entry>
+	<entry source="/home/claire/Documents" target="nas1::backup/dtrock01/home/claire" allowdelete="true"></entry>
+
+	<entry source="/home/shared" target="nas1::backup/dtrock01/home/shared" allowdelete="true"></entry>
+</sync>
+<sync id="media-to-NAS1">
+	<entry source="/home/craign/Music" target="nas1::media" allowdelete="false"></entry>
+	<entry source="/home/craign/Videos" target="nas1::media" allowdelete="false"></entry>
+	<entry source="/home/craign/Pictures" target="nas1::media" allowdelete="false"></entry>
+	<entry source="/home/craign/eBooks" target="nas1::media" allowdelete="false"></entry>
+</sync>
+</root>
