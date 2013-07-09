@@ -2,8 +2,8 @@
 
 # Script to generate the BPAS website pages from the MySQL DB's
 
-export BPASSCRIPT_DIR=$HOME/eclipse/workspace/BPASscripts
-export CAT_BPAS_SCRIPT_DIR=$HOME/eclipse/workspace/cat_bpas/script
+export BPASSCRIPT_DIR=$HOME/git/testgit/BPASscripts
+export CAT_BPAS_SCRIPT_DIR=$HOME/git/cat_bpas/cat_bpas/script
 export WEBSITE_DIR=$HOME/WebSites/bpas
 export SECURE_DIR=$HOME/Dropbox/BPAS/DBReports
 
