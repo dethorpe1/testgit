@@ -4,17 +4,12 @@
 #
 # SCRIPT: FetchLogs.pl
 #
-# PROJECT: London LLSP Programme
-#
-# DATE: December 2005
-#
-# AUTHOR: Craig Nicholas. BT Consulting & Systems Integration
+# AUTHOR: Craig Nicholas. 
 #
 # DESCRIPTION:
 #  Script to transfer files between servers. Can run
 #  in push or pull mode. i.e. send files from a local server to a remote 
 #  server, or pull files from a remote server to a local server.
-#  Used by ERS. 
 #
 # USAGE:
 #       FetchLogs [ -s <sleep time> -c <config file> -h -d [<level>]]
@@ -148,7 +143,6 @@ sub usage()
       Script to transfer files between servers. Can run
       in push or pull mode. i.e. send files from a local server to a remote 
       server, or pull files from a remote server to a local server.
-      Used by ERS. 
     USAGE
        FetchLogs [ -s <sleep time> -c <config file> -h -d [<level>] -m <mode>]
           sleep time = Number of seconds to sleep between fetches, 0 = do once only. 
