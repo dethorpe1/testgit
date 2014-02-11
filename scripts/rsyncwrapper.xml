@@ -15,10 +15,8 @@
 	<entry source="/home/craign/.thunderbird" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
 	<entry source="/home/craign/.config" target="nas1::backup/dtrock01/home/craign" allowdelete="true"></entry>
 
-	<entry source="/home/claire/Desktop" target="nas1::backup/dtrock01/home/claire" allowdelete="true"></entry>
-	<entry source="/home/claire/Documents" target="nas1::backup/dtrock01/home/claire" allowdelete="true"></entry>
-
-	<entry source="/home/shared" target="nas1::backup/dtrock01/home/shared" allowdelete="true"></entry>
+	<entry source="/home/claireo/Desktop" target="nas1::backup/dtrock01/home/claireo" allowdelete="true"></entry>
+	<entry source="/home/claireo/Documents" target="nas1::backup/dtrock01/home/claireo" allowdelete="true"></entry>
 </sync>
 <sync id="media-to-NAS1">
 	<entry source="/home/craign/Music" target="nas1::media" allowdelete="false"></entry>
