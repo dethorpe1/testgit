@@ -4,7 +4,7 @@
 
 export BPASSCRIPT_DIR=$HOME/git/testgit/BPASscripts
 export CAT_BPAS_SCRIPT_DIR=$HOME/git/cat_bpas/cat_bpas/script
-export WEBSITE_DIR=$HOME/WebSites/bpas
+export WEBSITE_DIR=$HOME/nas1_craig/WebSites/bpas
 export SECURE_DIR=$HOME/Dropbox/BPAS/DBReports
 
 # run catalyst test apps to generate static pages

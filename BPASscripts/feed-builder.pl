@@ -18,7 +18,7 @@ use Getopt::Long;
 
 # Set up default options. Can be overridden on command line
 my $domain="www.britishplate.org.uk"; 
-my $dir="/home/craign/WebSites/bpas"; 
+my $dir="/home/craign/nas1_craig/WebSites/bpas"; 
 my $title="British Plate Armour Society page changes"; 
 my $description="RSS feed of updated pages on the British Plate Armour Web site"; 
 my $items = 12; 
