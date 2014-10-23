@@ -57,11 +57,11 @@
 #				captured by the reguler expression and will appear in the $1 variable 
 #
 # Example of pattern based rename:
-#  file name			 = bis.log.2006-01-19.txt
-#  after hostname rename = reln-c17-wsi001_bis.log.2006-01-19.txt
+#  file name			 = app.log.2006-01-19.txt
+#  after hostname rename = host-a01-uat001_app.log.2006-01-19.txt
 #  field numbers 		 = $1   $2  $3     $4  $5  $6   $7 $8 $9
-#  Dest pattern 		 = BSI_$3_$6$7$9000000.log
-#  new name 		     = BSI_wsi001_20060119000000.log
+#  Dest pattern 		 = OUT_$3_$6$7$9000000.log
+#  new name 		     = OUT_uat001_20060119000000.log
 #
 ################################################################################
 
@@ -208,12 +208,12 @@ sub getConfig($)
 ## param2 = Original filename
 ## returns new file name
 ##
-## Example of pattern based rename:
-## Source file 			 = bis.log.2006-01-19.txt
-## after hostname rename = reln-c17-wsi001_bis.log.2006-01-19.txt
-## field numbers 		 = $1   $2  $3     $4  $5  $6   $7 $8 $9
-## Dest pattern 		 = BSI_$3_$6$7$9000000.log
-## returned name 		 = BSI_wsi001_20060119000000.log
+# Example of pattern based rename:
+#  file name			 = app.log.2006-01-19.txt
+#  after hostname rename = host-a01-uat001_app.log.2006-01-19.txt
+#  field numbers 		 = $1   $2  $3     $4  $5  $6   $7 $8 $9
+#  Dest pattern 		 = OUT_$3_$6$7$9000000.log
+#  new name 		     = OUT_uat001_20060119000000.log
 ##########################################################
 sub renameFile($$)
 {
